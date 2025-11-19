@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import TodoList from './components/TodoList'
 
 function App() {
   return (
   <>
-  <div className='text-3xl font-bold underline'>
-    dilshad
+  <div className=''>
+    <TodoList />
   </div>
   </>
   )
